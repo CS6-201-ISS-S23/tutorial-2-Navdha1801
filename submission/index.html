@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My First HTML tut</title>
+    <style>
+        .line {
+          position: relative;
+          width: 50%;
+          height: 1px;
+          margin: 0 auto;
+          background-color: black;
+        }
+  
+        .line::after {
+          content: "";
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 1px;
+          background-color: black;
+        }
+      </style>
+
+  </head>
+  <body>
+    <p>1.create a HTML page that displays the same output.Make sure you stick to standards,for example the &lt;br/&gt;tag should be closed.Also check whether your tags are paired,for example there should be one &lt;p&gt;tag for every &lt;p&gt;tag.<br><br>
+       2.<strong>This note in bold.</strong></p>
+    <p><center>3.This is the first centred paragraph.</center></p>
+    <p><div style="text-align:left">4.This is the second paragraph.It appears on the left.</div></p>
+    <p><div style="text-align:right">5.This is the third paragraph.It appears on the right.</div></p>
+       <h3><strong>6.This is a level 3 heading.</strong></h3><br>
+       <div style="text-align:right"><h5><strong>7.This is a level 5 heading.</strong></h5></div><br>
+      <p>8.Below is a horizontal line with 50% width with respect to the browser width.</p>
+      <div class="line"></div>
+    <p>9.Below is a horizontal ine which is 100 pixels wide.<br>
+        <hr style="width: 100px;"><br>
+        <style>
+            img{
+                float:right;
+            }
+        </style>
+        <p><img src="CAT.png" style="width:500px">10.Now this is a little tough.The image is displayed on right side and the text is displayedon the leftside.This is done using the "img" tag here,but you can use other methods to achieve the same output.The image has to be 500 pixels wide.</p>
+          <a href=" https://www.google.com/.">11.Click here to go to Google.</a><br><br>
+       12.Lists:<br>
+    <ol type="A">
+    <li>Item 1</li>
+    <li>Item 2</li>
+            <ol type="I">
+            <li>Item 2.1</li>
+            <li>Item 2.2</li>
+            <li><ol type="1">
+                   <li>Item 2.3.1</li>
+                   <li>Item 2.3.2</li>
+                   <li>Item 2.3.3</li>
+                </ol>
+            </li>
+            </ol>
+    </ol>
+    <ul style="list-style-type: disc;">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <ul style="list-style-type: circle;">
+            <li>Item 2.1</li>
+            <li>Item 2.2</li>
+            <li>
+                <ul style="list-style-type: disc;">
+                    <li>Item 2.3.1</li>
+                    <li>Item 2.3.2</li>
+                    <li>Item 2.3.3</li>
+                </ul>
+            </li>
+        </ul>
+    </ul>
+13. Subscripts:K<sub>2</sub>SO<sub>4</sub>.Al<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub>.24H<sub>2</sub>O
+    <pre>
+        14.    this
+                        entire
+                                     line
+                     is
+                         written
+                                 without    using
+                any
+                                 special
+                character. Only one
+                                     tag
+                can help do this.
+    </pre><br>
+    <p style="font-size: 30px;">15. This is written using the font "times" and is 30 pixels big.</p><br>
+    16. Sample table<br><br>
+    <table style="border: 1px solid black;">
+        <tr>
+          <th style="border: 1px solid black;">Column 1</th>
+          <th style="border: 1px solid black;">Column 2</th>
+        </tr>
+        <tr>
+          <td style="border: 1px solid black;">1.1</td>
+          <td style="border: 1px solid black;">1.2</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid black;">2.1</td>
+          <td style="border: 1px solid black;">2.2</td>
+        </tr>
+      </table><br><br>
+      17. Weird table<br><br>
+      <table border="1">
+      <tr>
+      <td rowspan="2" colspan="2"><u><b>something</b></u></td>
+      <td colspan="2"><b>something else</b></td>
+      <td style="background-color:black;color:white;">no idea</td>
+      </tr>
+      <tr>
+        <td colspan="3" style="text-align:centre;"><b>its morbin time</b></td>
+      </tr>
+      </table><br>
+      <p style="background-color: red; color:white;">18.Add some colors!This line has a red background and white foreground.</p>
+
+      
+
+    
+      
+              
+      
+              
+    
+    </p>
+  </body>
+</html>
